@@ -6938,24 +6938,18 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index.
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015722/1772390485614152_bliga26_MD26_SC_Freiburg_vs_Union_Berlin_1mar_landscape_thumb.jpg" group-title="SonyLiv | Sports",SC Freiburg vs Union Berlin - MD 26 - 15 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773637238~acl=/*~id=08880106579890058955076187597396~hmac=8788cb1ba88a85a5924c6a7a146ba50c1147d7fa2e00fcaa405d4cb6209fc606
+https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773639051~acl=/*~id=34458153057656545586875638937570~hmac=a875db8338c94c71e10424abd32704b3a78bc14e8acce4a00658220874eef58d
 
 # ---------------=== FanCode | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Bangladesh-vs-Pakistan_ODI_WEB_1080_x_810.jpg" group-title="FanCode | Sports",Bangladesh Vs Pakistan
-https://fanco.vodep39240327.workers.dev/141408_english.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/141309_6002_KSO_RRP_FC-Web_1773487500736.jpg" group-title="FanCode | Sports",Royal Riders Punjab Vs Konark Suryas Odisha
 https://fanco.vodep39240327.workers.dev/141309_english.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/141309_6002_KSO_RRP_FC-Web_1773487500736.jpg" group-title="FanCode | Sports",Royal Riders Punjab Vs Konark Suryas Odisha
 https://fanco.vodep39240327.workers.dev/141309_hindi.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140715_5971_SRN_MEX_fc-Web.jpg" group-title="FanCode | Sports",Mexico Vs Suriname
 https://fanco.vodep39240327.workers.dev/140715_english.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131106_5427_BAR_SEV_FC-Web.png" group-title="FanCode | Sports",Fc Barcelona Vs Sevilla Fc
-https://fanco.vodep39240327.workers.dev/131106_english.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131106_5427_BAR_SEV_FC-Web.png" group-title="FanCode | Sports",Fc Barcelona Vs Sevilla Fc
-https://fanco.vodep39240327.workers.dev/131106_hindi.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131106_5427_BAR_SEV_FC-Web.png" group-title="FanCode | Sports",Fc Barcelona Vs Sevilla Fc
-https://fanco.vodep39240327.workers.dev/131106_bengali.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131107_5427_RB_CEV_FC-Web.png" group-title="FanCode | Sports",Real Betis Vs Rc Celta
+https://fanco.vodep39240327.workers.dev/131107_english.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/The-Players_fc-web.jpg" group-title="FanCode | Sports",Main Feed   Day 4
 https://fanco.vodep39240327.workers.dev/141148_english.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/The-Players_fc-web.jpg" group-title="FanCode | Sports",Featured Holes   Day 4
