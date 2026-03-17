@@ -6937,21 +6937,18 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index.
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016303/1773739503087746_champions_ki_charcha_Sporting_vs_Bodo_17march_landscape_thumb.jpg" group-title="SonyLiv | Sports",Sporting CP vs Bodo/Glimt - Round Of 16 - Leg 2 - 17 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773811131~acl=/*~id=63518435666652853373771382698676~hmac=528485293fb932d4bc3064435de08b30a16575838dc69ab27ba324a9a3f8902f
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016303/1773739503087746_champions_ki_charcha_Sporting_vs_Bodo_17march_landscape_thumb.jpg" group-title="SonyLiv | Sports",Sporting CP vs Bodo/Glimt - Round Of 16 - Leg 2 - 17 Mar 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773811131~acl=/*~id=63518435666652853373771382698676~hmac=528485293fb932d4bc3064435de08b30a16575838dc69ab27ba324a9a3f8902f
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016303/1773739503087746_champions_ki_charcha_Sporting_vs_Bodo_17march_landscape_thumb.jpg" group-title="SonyLiv | Sports",Sporting CP vs Bodo/Glimt - Round Of 16 - Leg 2 - 17 Mar 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773811131~acl=/*~id=63518435666652853373771382698676~hmac=528485293fb932d4bc3064435de08b30a16575838dc69ab27ba324a9a3f8902f
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016303/1773739503087746_champions_ki_charcha_Sporting_vs_Bodo_17march_landscape_thumb.jpg" group-title="SonyLiv | Sports",Sporting CP vs Bodo/Glimt - Round Of 16 - Leg 2 - 17 Mar 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773811131~acl=/*~id=63518435666652853373771382698676~hmac=528485293fb932d4bc3064435de08b30a16575838dc69ab27ba324a9a3f8902f
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016257/177365887709212_UCL_26_RD16_L2_Sporting-CP-vs-Bodo-Glimt_landscape_thumb_sponsor.jpg" group-title="SonyLiv | Sports",Sporting CP vs Bodo/Glimt - Round Of 16 - Leg 2 - 17 Mar 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773813555~acl=/*~id=04140009164931035938480040280002~hmac=69c6dd7424fa89ee28b064ad5348eba90081e31773b9af67ad40c1e23b5b6a3c
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016257/177365887709212_UCL_26_RD16_L2_Sporting-CP-vs-Bodo-Glimt_landscape_thumb_sponsor.jpg" group-title="SonyLiv | Sports",Sporting CP vs Bodo/Glimt - Round Of 16 - Leg 2 - 17 Mar 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773813555~acl=/*~id=04140009164931035938480040280002~hmac=69c6dd7424fa89ee28b064ad5348eba90081e31773b9af67ad40c1e23b5b6a3c
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016257/177365887709212_UCL_26_RD16_L2_Sporting-CP-vs-Bodo-Glimt_landscape_thumb_sponsor.jpg" group-title="SonyLiv | Sports",Sporting CP vs Bodo/Glimt - Round Of 16 - Leg 2 - 17 Mar 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773813555~acl=/*~id=04140009164931035938480040280002~hmac=69c6dd7424fa89ee28b064ad5348eba90081e31773b9af67ad40c1e23b5b6a3c
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016257/177365887709212_UCL_26_RD16_L2_Sporting-CP-vs-Bodo-Glimt_landscape_thumb_sponsor.jpg" group-title="SonyLiv | Sports",Sporting CP vs Bodo/Glimt - Round Of 16 - Leg 2 - 17 Mar 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773813555~acl=/*~id=04140009164931035938480040280002~hmac=69c6dd7424fa89ee28b064ad5348eba90081e31773b9af67ad40c1e23b5b6a3c
 
 # ---------------=== FanCode | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/141311_6002_RRP_SSS_FC-Web_1773487500074.jpg" group-title="FanCode | Sports",Southern Super Stars Vs Royal Riders Punjab
-https://fanco.vodep39240327.workers.dev/141311_english.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/141311_6002_RRP_SSS_FC-Web_1773487500074.jpg" group-title="FanCode | Sports",Southern Super Stars Vs Royal Riders Punjab
-https://fanco.vodep39240327.workers.dev/141311_hindi.m3u8
+
 
 # ---------------=== CS OTT | SONY LIV ===-------------------
 
