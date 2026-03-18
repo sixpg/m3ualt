@@ -15,6 +15,8 @@ const SOURCES = {
 
   SONGHAR_SONYLIV: "https://raw.githubusercontent.com/Sflex0719/SonGharLive/main/SL.m3u",
 
+  NEW_M3U: "https://short.vodep39240327.workers.dev/2yd28m",
+
   LOCAL_JSON: [
     "https://b4u.vodep39240327.workers.dev/1.json?url=https://tulnit.com/channel/local-tamil-tv/",
     "https://b4u.vodep39240327.workers.dev/1.json?url=https://tulnit.com/channel/local-tamil-tv/page/2",
@@ -177,6 +179,23 @@ async function run(){
  // ZEE5
  const zee5=await safeFetch(SOURCES.ZEE5_M3U);
  if(zee5) out.push(section("CS OTT | ZEE5"),zee5);
+
+ // ✅ NEW M3U WITH CATEGORY LOGIC (ONLY CHANGE)
+ const newm3u = await safeFetch(SOURCES.NEW_M3U);
+ if(newm3u){
+  const categorized = newm3u.split("\n").map(line=>{
+    if(line.startsWith("#EXTINF")){
+      if(/sport|cricket|match|ipl|football/i.test(line)){
+        return line.replace(/group-title="[^"]*"/,'group-title="CS WORLD | SPORTS"');
+      } else {
+        return line.replace(/group-title="[^"]*"/,'group-title="CS WORLD | MOVIES ETC"');
+      }
+    }
+    return line;
+  }).join("\n");
+
+  out.push(section("CS OTT | Extra"), categorized);
+ }
 
  // JIO
  const jio=await safeFetch(SOURCES.JIO_JSON);
