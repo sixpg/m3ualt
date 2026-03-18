@@ -180,15 +180,19 @@ async function run(){
  const zee5=await safeFetch(SOURCES.ZEE5_M3U);
  if(zee5) out.push(section("CS OTT | ZEE5"),zee5);
 
- // ✅ NEW M3U WITH CATEGORY LOGIC (ONLY CHANGE)
+ // ✅ NEW M3U WITH FIXED CATEGORY LOGIC (ONLY CHANGE)
  const newm3u = await safeFetch(SOURCES.NEW_M3U);
  if(newm3u){
   const categorized = newm3u.split("\n").map(line=>{
     if(line.startsWith("#EXTINF")){
-      if(/sport|cricket|match|ipl|football/i.test(line)){
-        return line.replace(/group-title="[^"]*"/,'group-title="CS WORLD | SPORTS"');
+      const category = /sport|cricket|match|ipl|football/i.test(line)
+        ? 'CS | SPORTS'
+        : 'CS | MOVIES ETC';
+
+      if(line.includes('group-title=')){
+        return line.replace(/group-title="[^"]*"/, `group-title="${category}"`);
       } else {
-        return line.replace(/group-title="[^"]*"/,'group-title="CS WORLD | MOVIES ETC"');
+        return line.replace('#EXTINF:-1', `#EXTINF:-1 group-title="${category}"`);
       }
     }
     return line;
