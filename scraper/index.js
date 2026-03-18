@@ -180,19 +180,18 @@ async function run(){
  const zee5=await safeFetch(SOURCES.ZEE5_M3U);
  if(zee5) out.push(section("CS OTT | ZEE5"),zee5);
 
- // ✅ NEW M3U WITH FIXED CATEGORY LOGIC (ONLY CHANGE)
+ // ✅ ONLY CHANGE HERE
  const newm3u = await safeFetch(SOURCES.NEW_M3U);
  if(newm3u){
   const categorized = newm3u.split("\n").map(line=>{
     if(line.startsWith("#EXTINF")){
-      const category = /sport|cricket|match|ipl|football/i.test(line)
-        ? 'CS | SPORTS'
-        : 'CS | MOVIES ETC';
+      const match = line.match(/group-title="([^"]*)"/);
 
-      if(line.includes('group-title=')){
-        return line.replace(/group-title="[^"]*"/, `group-title="${category}"`);
+      if(match){
+        const original = match[1].toUpperCase();
+        return line.replace(/group-title="[^"]*"/, `group-title="CS WORLD | ${original}"`);
       } else {
-        return line.replace('#EXTINF:-1', `#EXTINF:-1 group-title="${category}"`);
+        return line.replace('#EXTINF:-1', `#EXTINF:-1 group-title="CS WORLD | OTHER"`);
       }
     }
     return line;
@@ -221,7 +220,7 @@ async function run(){
  const icc=await safeFetch(SOURCES.ICC_TV_JSON);
  if(icc) out.push(section("ICC TV"),icc);
 
- // SONYLIV DIGITAL (FORCE SINGLE FOLDER)
+ // SONYLIV DIGITAL
  const digital=await safeFetch(SOURCES.SONGHAR_SONYLIV);
  if(digital){
   const fixed=digital.split("\n").map(l=>{
