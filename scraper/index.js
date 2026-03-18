@@ -15,7 +15,7 @@ const SOURCES = {
 
   SONGHAR_SONYLIV: "https://raw.githubusercontent.com/Sflex0719/SonGharLive/main/SL.m3u",
 
-  NEW_M3U: "https://short.vodep39240327.workers.dev/2yd28m",
+  NEW_M3U: "https://vt-ip.vodep39240327.workers.dev/playlist.m3u8?url=http://jiotv.be/stalker_portal/c&mac=00:1A:79:97:55:B9&deviceId1=B8F453DCDAEE02318C9FA912D9E409EE96B75AE592A70B526AA84478533C0A66&deviceId2=B8F453DCDAEE02318C9FA912D9E409EE96B75AE592A70B526AA84478533C0A66&sn=500482917046B",
 
   LOCAL_JSON: [
     "https://b4u.vodep39240327.workers.dev/1.json?url=https://tulnit.com/channel/local-tamil-tv/",
