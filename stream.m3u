@@ -16762,14 +16762,15 @@ https://jiotvmblive.cdn.jio.com//bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
-
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016248/1773648580399805_IFC_Chanmari_FC-vs-Shillong_Lajong_FC_landscape_thumb.jpg" group-title="SonyLiv | Sports",Chanmari FC vs Shillong Lajong FC - 19 Mar 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773959612~acl=/*~id=76028147136051374148094691029808~hmac=6812f1ff78f934752c38e66946d4ed26831eb041ca13c941f599635cf7ba0d10
 
 # ---------------=== FanCode | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8).png" group-title="FanCode | Sports",Punjab Lions Vs Gujarat Tigers
-https://fanco.vodep39240327.workers.dev/141212_english.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/141371_6007_HT_BB_FC-Web.jpg" group-title="FanCode | Sports",Betwa Blasters Vs Hindon Titans
 https://fanco.vodep39240327.workers.dev/141371_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8).png" group-title="FanCode | Sports",Mumbai Mavericks Vs Punjab Lions
+https://fanco.vodep39240327.workers.dev/141214_english.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140819_5979_TPE-W_NK-W_fc-Web.jpg" group-title="FanCode | Sports",Chinese Taipei Women Vs Dpr Korea Women
 https://fanco.vodep39240327.workers.dev/140819_english.m3u8
 
