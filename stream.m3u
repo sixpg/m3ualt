@@ -16763,12 +16763,24 @@ https://jiotvmblive.cdn.jio.com//bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016248/1773648806296805_IFC_Sreenidi_Deccan_FC_vs_Namdhari_FC_landscape_thumb.jpg" group-title="SonyLiv | Sports",Sreenidi Deccan FC vs Namdhari FC - 19 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773971227~acl=/*~id=81162445791914500388405728697563~hmac=0e6155b1ff1e6ade9a31d4c13f9b15e8f0c71db9e5e68c51469da78146685869
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773974257~acl=/*~id=79974191363350162345297803899574~hmac=b1956a2c8b68bb311325096b060fbf24ddc982a329e27361a7478563beaf601e
 
 # ---------------=== FanCode | Sports ===-------------------
 
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/141319_6002_MSP_RRP_FC-Web_1773487500782.jpg" group-title="FanCode | Sports",Mumbai Spartans Vs Royal Riders Punjab
+https://fanco.vodep39240327.workers.dev/141314_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/141319_6002_MSP_RRP_FC-Web_1773487500782.jpg" group-title="FanCode | Sports",Mumbai Spartans Vs Royal Riders Punjab
+https://fanco.vodep39240327.workers.dev/141314_hindi.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Uganda-tour-of-Namibia-2026_Web_1080_x_810.jpg" group-title="FanCode | Sports",Eagles Xi Vs Uganda
 https://fanco.vodep39240327.workers.dev/141447_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140466_5956_SCD_JFC_FC-Web_1772964306483.jpg" group-title="FanCode | Sports",Sporting Club Delhi Vs Jamshedpur Fc
+https://fanco.vodep39240327.workers.dev/140466_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140466_5956_SCD_JFC_FC-Web_1772964306483.jpg" group-title="FanCode | Sports",Sporting Club Delhi Vs Jamshedpur Fc
+https://fanco.vodep39240327.workers.dev/140466_hindi.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140466_5956_SCD_JFC_FC-Web_1772964306483.jpg" group-title="FanCode | Sports",Sporting Club Delhi Vs Jamshedpur Fc
+https://fanco.vodep39240327.workers.dev/140466_malayalam.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140466_5956_SCD_JFC_FC-Web_1772964306483.jpg" group-title="FanCode | Sports",Sporting Club Delhi Vs Jamshedpur Fc
+https://fanco.vodep39240327.workers.dev/140466_bengali.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Valspar-Championship_fc-web.jpg" group-title="FanCode | Sports",Marquee Feed   Day 1	
 https://fanco.vodep39240327.workers.dev/141389_english.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Valspar-Championship_fc-web.jpg" group-title="FanCode | Sports",Featured Holes   Day 1	
@@ -16781,6 +16793,10 @@ https://fanco.vodep39240327.workers.dev/141388_english.m3u8
 https://fanco.vodep39240327.workers.dev/141459_english.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB.jpg" group-title="FanCode | Sports",H Court Feed
 https://fanco.vodep39240327.workers.dev/141457_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB.jpg" group-title="FanCode | Sports",J Court Feed
+https://fanco.vodep39240327.workers.dev/141532_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB.jpg" group-title="FanCode | Sports",I Court Feed
+https://fanco.vodep39240327.workers.dev/141531_english.m3u8
 
 # ---------------=== CS OTT | SONY LIV ===-------------------
 
