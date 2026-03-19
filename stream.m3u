@@ -702,7 +702,7 @@ https://aasthaott.akamaized.net/110923/smil:aasthausa.smil/playlist.m3u8?hdntl=e
 # ---------------=== CS OTT | Extra ===-------------------
 
 #EXTM3U
-# Auto-refresh every minute | 4910 Channels
+# Auto-refresh every minute | 4914 Channels
 #EXTINF:-1 tvg-id="2152" tvg-logo="" group-title="CS WORLD | ENGLISH",GLOBAL TORONTO 4K
 https://vt-ip.vodep39240327.workers.dev/2152.m3u8
 #EXTINF:-1 tvg-id="11" tvg-logo="" group-title="CS WORLD | ENGLISH",GLOBAL MONTREAL 4K
@@ -2131,6 +2131,8 @@ https://vt-ip.vodep39240327.workers.dev/2742.m3u8
 https://vt-ip.vodep39240327.workers.dev/1927.m3u8
 #EXTINF:-1 tvg-id="1645" tvg-logo="" group-title="CS WORLD | PUNJABI",PITAARA TV HD
 https://vt-ip.vodep39240327.workers.dev/1645.m3u8
+#EXTINF:-1 tvg-id="6657" tvg-logo="" group-title="CS WORLD | PUNJABI",PTC PUNJABI AU
+https://vt-ip.vodep39240327.workers.dev/6657.m3u8
 #EXTINF:-1 tvg-id="580" tvg-logo="" group-title="CS WORLD | PUNJABI",DESPARDES PRIMETIVE TV
 https://vt-ip.vodep39240327.workers.dev/580.m3u8
 #EXTINF:-1 tvg-id="572" tvg-logo="" group-title="CS WORLD | PUNJABI",9X TASHAN
@@ -2241,6 +2243,8 @@ https://vt-ip.vodep39240327.workers.dev/615.m3u8
 https://vt-ip.vodep39240327.workers.dev/616.m3u8
 #EXTINF:-1 tvg-id="2176" tvg-logo="" group-title="CS WORLD | PUNJABI RELIGIOUS",ASIA TV GURBANI HD
 https://vt-ip.vodep39240327.workers.dev/2176.m3u8
+#EXTINF:-1 tvg-id="6658" tvg-logo="" group-title="CS WORLD | PUNJABI RELIGIOUS",GURUDWARA GURSAGAR MASTUANA SAHIB HD
+https://vt-ip.vodep39240327.workers.dev/6658.m3u8
 #EXTINF:-1 tvg-id="2501" tvg-logo="" group-title="CS WORLD | PUNJABI RELIGIOUS",GURDWARA DCC CALGARY HD
 https://vt-ip.vodep39240327.workers.dev/2501.m3u8
 #EXTINF:-1 tvg-id="1652" tvg-logo="" group-title="CS WORLD | PUNJABI",ONLY MUSIC HD
@@ -2257,6 +2261,8 @@ https://vt-ip.vodep39240327.workers.dev/2763.m3u8
 https://vt-ip.vodep39240327.workers.dev/2594.m3u8
 #EXTINF:-1 tvg-id="2753" tvg-logo="" group-title="CS WORLD | PUNJABI RELIGIOUS",GURDWARA JOT PARKASH BRAMPTON HD
 https://vt-ip.vodep39240327.workers.dev/2753.m3u8
+#EXTINF:-1 tvg-id="6659" tvg-logo="" group-title="CS WORLD | ENGLISH",GURDWARA SIKH SOCIETY MANITOBA HD
+https://vt-ip.vodep39240327.workers.dev/6659.m3u8
 #EXTINF:-1 tvg-id="2754" tvg-logo="" group-title="CS WORLD | PUNJABI RELIGIOUS",GURDWARA NANAKSAR BRAMPTON HD
 https://vt-ip.vodep39240327.workers.dev/2754.m3u8
 #EXTINF:-1 tvg-id="1441" tvg-logo="" group-title="CS WORLD | PUNJABI",SADA TV HD
@@ -2299,8 +2305,10 @@ https://vt-ip.vodep39240327.workers.dev/1715.m3u8
 https://vt-ip.vodep39240327.workers.dev/1716.m3u8
 #EXTINF:-1 tvg-id="1717" tvg-logo="" group-title="CS WORLD | PUNJABI RELIGIOUS",PTC SIMRAN HD
 https://vt-ip.vodep39240327.workers.dev/1717.m3u8
-#EXTINF:-1 tvg-id="1792" tvg-logo="" group-title="CS WORLD | PUNJABI",GTC PUNJABI HD
+#EXTINF:-1 tvg-id="1792" tvg-logo="" group-title="CS WORLD | PUNJABI",GTC PUNJABI HD INDIA
 https://vt-ip.vodep39240327.workers.dev/1792.m3u8
+#EXTINF:-1 tvg-id="6656" tvg-logo="" group-title="CS WORLD | PUNJABI",GTC PUNJABI HD USA
+https://vt-ip.vodep39240327.workers.dev/6656.m3u8
 #EXTINF:-1 tvg-id="1749" tvg-logo="" group-title="CS WORLD | PUNJABI",ROAD TODAY HD
 https://vt-ip.vodep39240327.workers.dev/1749.m3u8
 #EXTINF:-1 tvg-id="1793" tvg-logo="" group-title="CS WORLD | PUNJABI",PTC MUSIC HD USA
@@ -16722,66 +16730,64 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Maa_Gold_BTS/output/index.mpd?__hdnea__=s
 #EXTINF:-1 tvg-id="1100" tvg-logo="https://img.u0k.workers.dev/CosmicSports.webp" group-title="MATCHES",Star Sports 1 HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=965dc2ddb1d85138ad787999a7f30ca5:859695076e67fe961836b564db6d689c
-#EXTHTTP:{"Cookie":"__hdnea__=st=1773939632~exp=1774026032~acl=/*~hmac=11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94|Cookie=__hdnea__=st=1773939632~exp=1774026032~acl=/*~hmac=11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94","User-Agent":"plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0"}
-https://jiotvmblive.cdn.jio.com//bpk-tv/Star_Sports_HD1_BTS/output/index.mpd?__hdnea__=st%3D1773939632%7Eexp%3D1774026032%7Eacl%3D%2F*%7Ehmac%3D11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94%7CCookie%3D__hdnea__%3Dst%3D1773939632%7Eexp%3D1774026032%7Eacl%3D%2F*%7Ehmac%3D11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94&Origin=https%3A%2F%2Fjiotv.com%2F&Referer=https%3A%2F%2Fjiotv.com%2F&drmScheme=clearkey
+#EXTHTTP:{"Cookie":"__hdnea__=st=1773950436~exp=1774036836~acl=/*~hmac=035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9|Cookie=__hdnea__=st=1773950436~exp=1774036836~acl=/*~hmac=035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9","User-Agent":"plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0"}
+https://jiotvmblive.cdn.jio.com//bpk-tv/Star_Sports_HD1_BTS/output/index.mpd?__hdnea__=st%3D1773950436%7Eexp%3D1774036836%7Eacl%3D%2F*%7Ehmac%3D035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9%7CCookie%3D__hdnea__%3Dst%3D1773950436%7Eexp%3D1774036836%7Eacl%3D%2F*%7Ehmac%3D035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9&Origin=https%3A%2F%2Fjiotv.com%2F&Referer=https%3A%2F%2Fjiotv.com%2F&drmScheme=clearkey
 #EXTINF:-1 tvg-id="1101" tvg-logo="https://img.u0k.workers.dev/CosmicSports.webp" group-title="MATCHES",Star Sports 1 Hindi HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=400131994b445d8c8817202248760fda:2d56cb6f07a75b9aff165d534ae2bfc4
-#EXTHTTP:{"Cookie":"__hdnea__=st=1773939632~exp=1774026032~acl=/*~hmac=11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94|Cookie=__hdnea__=st=1773939632~exp=1774026032~acl=/*~hmac=11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94","User-Agent":"plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0"}
-https://jiotvmblive.cdn.jio.com//bpk-tv/Star_Sports_HD1_Hindi_BTS/output/index.mpd?__hdnea__=st%3D1773939632%7Eexp%3D1774026032%7Eacl%3D%2F*%7Ehmac%3D11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94%7CCookie%3D__hdnea__%3Dst%3D1773939632%7Eexp%3D1774026032%7Eacl%3D%2F*%7Ehmac%3D11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94&Origin=https%3A%2F%2Fjiotv.com%2F&Referer=https%3A%2F%2Fjiotv.com%2F&drmScheme=clearkey
+#EXTHTTP:{"Cookie":"__hdnea__=st=1773950436~exp=1774036836~acl=/*~hmac=035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9|Cookie=__hdnea__=st=1773950436~exp=1774036836~acl=/*~hmac=035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9","User-Agent":"plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0"}
+https://jiotvmblive.cdn.jio.com//bpk-tv/Star_Sports_HD1_Hindi_BTS/output/index.mpd?__hdnea__=st%3D1773950436%7Eexp%3D1774036836%7Eacl%3D%2F*%7Ehmac%3D035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9%7CCookie%3D__hdnea__%3Dst%3D1773950436%7Eexp%3D1774036836%7Eacl%3D%2F*%7Ehmac%3D035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9&Origin=https%3A%2F%2Fjiotv.com%2F&Referer=https%3A%2F%2Fjiotv.com%2F&drmScheme=clearkey
 #EXTINF:-1 tvg-id="1102" tvg-logo="https://img.u0k.workers.dev/CosmicSports.webp" group-title="MATCHES",Star Sports 2 Kannada
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=7af2add2968a56309519ac2680c18f25:f992a14e0def17ccdfe16f58c4ce56c5
-#EXTHTTP:{"Cookie":"__hdnea__=st=1773939632~exp=1774026032~acl=/*~hmac=11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94|Cookie=__hdnea__=st=1773939632~exp=1774026032~acl=/*~hmac=11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94","User-Agent":"plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0"}
-https://jiotvmblive.cdn.jio.com//bpk-tv/Star_Sports_2_Kannada_BTS/output/index.mpd?__hdnea__=st%3D1773939632%7Eexp%3D1774026032%7Eacl%3D%2F*%7Ehmac%3D11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94%7CCookie%3D__hdnea__%3Dst%3D1773939632%7Eexp%3D1774026032%7Eacl%3D%2F*%7Ehmac%3D11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94&Origin=https%3A%2F%2Fjiotv.com%2F&Referer=https%3A%2F%2Fjiotv.com%2F&drmScheme=clearkey
+#EXTHTTP:{"Cookie":"__hdnea__=st=1773950436~exp=1774036836~acl=/*~hmac=035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9|Cookie=__hdnea__=st=1773950436~exp=1774036836~acl=/*~hmac=035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9","User-Agent":"plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0"}
+https://jiotvmblive.cdn.jio.com//bpk-tv/Star_Sports_2_Kannada_BTS/output/index.mpd?__hdnea__=st%3D1773950436%7Eexp%3D1774036836%7Eacl%3D%2F*%7Ehmac%3D035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9%7CCookie%3D__hdnea__%3Dst%3D1773950436%7Eexp%3D1774036836%7Eacl%3D%2F*%7Ehmac%3D035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9&Origin=https%3A%2F%2Fjiotv.com%2F&Referer=https%3A%2F%2Fjiotv.com%2F&drmScheme=clearkey
 #EXTINF:-1 tvg-id="1103" tvg-logo="https://img.u0k.workers.dev/CosmicSports.webp" group-title="MATCHES",Star Sports 1 Kannada
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9a6d058fa40b5460a946178900eb44cb:791d7444110cec32d731ca0c33ac6c15
-#EXTHTTP:{"Cookie":"__hdnea__=st=1773939632~exp=1774026032~acl=/*~hmac=11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94|Cookie=__hdnea__=st=1773939632~exp=1774026032~acl=/*~hmac=11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94","User-Agent":"plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0"}
-https://jiotvmblive.cdn.jio.com//bpk-tv/Star_Sports_1_Kannada_BTS/output/index.mpd?__hdnea__=st%3D1773939632%7Eexp%3D1774026032%7Eacl%3D%2F*%7Ehmac%3D11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94%7CCookie%3D__hdnea__%3Dst%3D1773939632%7Eexp%3D1774026032%7Eacl%3D%2F*%7Ehmac%3D11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94&Origin=https%3A%2F%2Fjiotv.com%2F&Referer=https%3A%2F%2Fjiotv.com%2F&drmScheme=clearkey
+#EXTHTTP:{"Cookie":"__hdnea__=st=1773950436~exp=1774036836~acl=/*~hmac=035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9|Cookie=__hdnea__=st=1773950436~exp=1774036836~acl=/*~hmac=035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9","User-Agent":"plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0"}
+https://jiotvmblive.cdn.jio.com//bpk-tv/Star_Sports_1_Kannada_BTS/output/index.mpd?__hdnea__=st%3D1773950436%7Eexp%3D1774036836%7Eacl%3D%2F*%7Ehmac%3D035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9%7CCookie%3D__hdnea__%3Dst%3D1773950436%7Eexp%3D1774036836%7Eacl%3D%2F*%7Ehmac%3D035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9&Origin=https%3A%2F%2Fjiotv.com%2F&Referer=https%3A%2F%2Fjiotv.com%2F&drmScheme=clearkey
 #EXTINF:-1 tvg-id="1104" tvg-logo="https://img.u0k.workers.dev/CosmicSports.webp" group-title="MATCHES",Star Sports 2 Telugu
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6576a2664bc1563db2abd4fc192152b2:452e28454297a4193dbdf8f5cebc70b0
-#EXTHTTP:{"Cookie":"__hdnea__=st=1773939632~exp=1774026032~acl=/*~hmac=11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94|Cookie=__hdnea__=st=1773939632~exp=1774026032~acl=/*~hmac=11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94","User-Agent":"plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0"}
-https://jiotvmblive.cdn.jio.com//bpk-tv/StarSports2Telugu_BTS/output/index.mpd?__hdnea__=st%3D1773939632%7Eexp%3D1774026032%7Eacl%3D%2F*%7Ehmac%3D11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94%7CCookie%3D__hdnea__%3Dst%3D1773939632%7Eexp%3D1774026032%7Eacl%3D%2F*%7Ehmac%3D11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94&Origin=https%3A%2F%2Fjiotv.com%2F&Referer=https%3A%2F%2Fjiotv.com%2F&drmScheme=clearkey
+#EXTHTTP:{"Cookie":"__hdnea__=st=1773950436~exp=1774036836~acl=/*~hmac=035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9|Cookie=__hdnea__=st=1773950436~exp=1774036836~acl=/*~hmac=035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9","User-Agent":"plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0"}
+https://jiotvmblive.cdn.jio.com//bpk-tv/StarSports2Telugu_BTS/output/index.mpd?__hdnea__=st%3D1773950436%7Eexp%3D1774036836%7Eacl%3D%2F*%7Ehmac%3D035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9%7CCookie%3D__hdnea__%3Dst%3D1773950436%7Eexp%3D1774036836%7Eacl%3D%2F*%7Ehmac%3D035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9&Origin=https%3A%2F%2Fjiotv.com%2F&Referer=https%3A%2F%2Fjiotv.com%2F&drmScheme=clearkey
 #EXTINF:-1 tvg-id="1105" tvg-logo="https://img.u0k.workers.dev/CosmicSports.webp" group-title="MATCHES",Star Sports 2 Tamil
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=3c1b335c4bb858a7a6ac5a883d898a09:6eeff4302a7d19befd43c6b7b5fac268
-#EXTHTTP:{"Cookie":"__hdnea__=st=1773939632~exp=1774026032~acl=/*~hmac=11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94|Cookie=__hdnea__=st=1773939632~exp=1774026032~acl=/*~hmac=11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94","User-Agent":"plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0"}
-https://jiotvmblive.cdn.jio.com//bpk-tv/StarSports2Tamil_BTS/output/index.mpd?__hdnea__=st%3D1773939632%7Eexp%3D1774026032%7Eacl%3D%2F*%7Ehmac%3D11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94%7CCookie%3D__hdnea__%3Dst%3D1773939632%7Eexp%3D1774026032%7Eacl%3D%2F*%7Ehmac%3D11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94&Origin=https%3A%2F%2Fjiotv.com%2F&Referer=https%3A%2F%2Fjiotv.com%2F&drmScheme=clearkey
+#EXTHTTP:{"Cookie":"__hdnea__=st=1773950436~exp=1774036836~acl=/*~hmac=035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9|Cookie=__hdnea__=st=1773950436~exp=1774036836~acl=/*~hmac=035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9","User-Agent":"plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0"}
+https://jiotvmblive.cdn.jio.com//bpk-tv/StarSports2Tamil_BTS/output/index.mpd?__hdnea__=st%3D1773950436%7Eexp%3D1774036836%7Eacl%3D%2F*%7Ehmac%3D035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9%7CCookie%3D__hdnea__%3Dst%3D1773950436%7Eexp%3D1774036836%7Eacl%3D%2F*%7Ehmac%3D035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9&Origin=https%3A%2F%2Fjiotv.com%2F&Referer=https%3A%2F%2Fjiotv.com%2F&drmScheme=clearkey
 #EXTINF:-1 tvg-id="1106" tvg-logo="https://img.u0k.workers.dev/CosmicSports.webp" group-title="MATCHES",Star Sports 1 Tamil HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=2272c0bc6b2e5cb090b1f55996e0026c:943923934de1d5536ab01c67fca8b337
-#EXTHTTP:{"Cookie":"__hdnea__=st=1773939632~exp=1774026032~acl=/*~hmac=11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94|Cookie=__hdnea__=st=1773939632~exp=1774026032~acl=/*~hmac=11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94","User-Agent":"plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0"}
-https://jiotvmblive.cdn.jio.com//bpk-tv/Star_Sports_1_Tamil_HD_BTS/output/index.mpd?__hdnea__=st%3D1773939632%7Eexp%3D1774026032%7Eacl%3D%2F*%7Ehmac%3D11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94%7CCookie%3D__hdnea__%3Dst%3D1773939632%7Eexp%3D1774026032%7Eacl%3D%2F*%7Ehmac%3D11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94&Origin=https%3A%2F%2Fjiotv.com%2F&Referer=https%3A%2F%2Fjiotv.com%2F&drmScheme=clearkey
+#EXTHTTP:{"Cookie":"__hdnea__=st=1773950436~exp=1774036836~acl=/*~hmac=035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9|Cookie=__hdnea__=st=1773950436~exp=1774036836~acl=/*~hmac=035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9","User-Agent":"plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0"}
+https://jiotvmblive.cdn.jio.com//bpk-tv/Star_Sports_1_Tamil_HD_BTS/output/index.mpd?__hdnea__=st%3D1773950436%7Eexp%3D1774036836%7Eacl%3D%2F*%7Ehmac%3D035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9%7CCookie%3D__hdnea__%3Dst%3D1773950436%7Eexp%3D1774036836%7Eacl%3D%2F*%7Ehmac%3D035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9&Origin=https%3A%2F%2Fjiotv.com%2F&Referer=https%3A%2F%2Fjiotv.com%2F&drmScheme=clearkey
 #EXTINF:-1 tvg-id="1107" tvg-logo="https://img.u0k.workers.dev/CosmicSports.webp" group-title="MATCHES",Star Sports 1 Telugu HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=49e84b9edfd85379b90c81b7d2d3d2bf:19c82d3ff094fa06af95820a1572ecb5
-#EXTHTTP:{"Cookie":"__hdnea__=st=1773939632~exp=1774026032~acl=/*~hmac=11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94|Cookie=__hdnea__=st=1773939632~exp=1774026032~acl=/*~hmac=11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94","User-Agent":"plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0"}
-https://jiotvmblive.cdn.jio.com//bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index.mpd?__hdnea__=st%3D1773939632%7Eexp%3D1774026032%7Eacl%3D%2F*%7Ehmac%3D11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94%7CCookie%3D__hdnea__%3Dst%3D1773939632%7Eexp%3D1774026032%7Eacl%3D%2F*%7Ehmac%3D11bb10db53a7dbb983de8b7e9d01ad7700db68c2c304bd56c5ada8e5ff9daf94&Origin=https%3A%2F%2Fjiotv.com%2F&Referer=https%3A%2F%2Fjiotv.com%2F&drmScheme=clearkey
+#EXTHTTP:{"Cookie":"__hdnea__=st=1773950436~exp=1774036836~acl=/*~hmac=035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9|Cookie=__hdnea__=st=1773950436~exp=1774036836~acl=/*~hmac=035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9","User-Agent":"plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0"}
+https://jiotvmblive.cdn.jio.com//bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index.mpd?__hdnea__=st%3D1773950436%7Eexp%3D1774036836%7Eacl%3D%2F*%7Ehmac%3D035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9%7CCookie%3D__hdnea__%3Dst%3D1773950436%7Eexp%3D1774036836%7Eacl%3D%2F*%7Ehmac%3D035b45354ca4f5df18a200812198c37abc8ab47486f02fe1c6027482fd628da9&Origin=https%3A%2F%2Fjiotv.com%2F&Referer=https%3A%2F%2Fjiotv.com%2F&drmScheme=clearkey
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016105/1773041019201489_UEL_26_R-16-Leg-2_FC-Midtjylland-vs-Nottingham-Forest_landscape_thumb.jpg" group-title="SonyLiv | Sports",FC Midtjylland vs Nottingham Forest - Round of 16 - Leg 2 - 19 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773993091~acl=/*~id=59129977181909199004662454124852~hmac=c3af0b4a225988e0d1964e091c0865e297f24165477cdd49ac840930a48cd45e
+https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773995529~acl=/*~id=32548495285409691308541362761142~hmac=a500fce8ced351abdbd43ae30f0b0c8a04a1e7db15ec1f67accd1ce2a5502d47
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016105/1773054467954489_UEL_26_R-16-Leg-2_Aston-Villa-vs-LOSC_landscape_thumb.jpg" group-title="SonyLiv | Sports",Aston Villa vs Lille - Round of 16 - Leg 2 - 20 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773993091~acl=/*~id=59129977181909199004662454124852~hmac=c3af0b4a225988e0d1964e091c0865e297f24165477cdd49ac840930a48cd45e
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773995529~acl=/*~id=32548495285409691308541362761142~hmac=a500fce8ced351abdbd43ae30f0b0c8a04a1e7db15ec1f67accd1ce2a5502d47
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016105/1773053527372489_UEL_26_R-16-Leg-2_AS-Roma-vs-Bologna_landscape_thumb.jpg" group-title="SonyLiv | Sports",AS Roma vs Bologna - Round of 16 - Leg 2 - 20 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773993091~acl=/*~id=59129977181909199004662454124852~hmac=c3af0b4a225988e0d1964e091c0865e297f24165477cdd49ac840930a48cd45e
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016182/1773324695316941_UECL_26_RD16_LEG2_AEK-Larnaca-vs-Crystal-Palace_landscape_thumb.jpg" group-title="SonyLiv | Sports",AEK Larnaca vs Crystal Palace - Round of 16 - Leg 2 - 19 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773993091~acl=/*~id=59129977181909199004662454124852~hmac=c3af0b4a225988e0d1964e091c0865e297f24165477cdd49ac840930a48cd45e
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773995529~acl=/*~id=32548495285409691308541362761142~hmac=a500fce8ced351abdbd43ae30f0b0c8a04a1e7db15ec1f67accd1ce2a5502d47
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016105/1773142865395489_UEL_26_R-16-Leg-2_FC-Porto-vs-VfB-Stuttgart_landscape_thumb.jpg" group-title="SonyLiv | Sports",FC Porto vs VfB Stuttgart - Round of 16 - Leg 2 - 20 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773993091~acl=/*~id=59129977181909199004662454124852~hmac=c3af0b4a225988e0d1964e091c0865e297f24165477cdd49ac840930a48cd45e
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773995529~acl=/*~id=32548495285409691308541362761142~hmac=a500fce8ced351abdbd43ae30f0b0c8a04a1e7db15ec1f67accd1ce2a5502d47
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016105/1773143366190489_UEL_26_R-16-Leg-2_Real-Betis-vs-Panathinaikos_landscape_thumb.jpg" group-title="SonyLiv | Sports",Real Betis vs Panathinaikos - Round of 16 - Leg 2 - 20 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773993091~acl=/*~id=59129977181909199004662454124852~hmac=c3af0b4a225988e0d1964e091c0865e297f24165477cdd49ac840930a48cd45e
+https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773995529~acl=/*~id=32548495285409691308541362761142~hmac=a500fce8ced351abdbd43ae30f0b0c8a04a1e7db15ec1f67accd1ce2a5502d47
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016182/1773402912868941_UECL_26_RD16_LEG2_Sparta-Praha-vs-AZ-Alkmaar_landscape_thumb.jpg" group-title="SonyLiv | Sports",Sparta Prague vs AZ Alkmaar - Round of 16 - Leg 2 - 20 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022322/DAI18ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773993091~acl=/*~id=59129977181909199004662454124852~hmac=c3af0b4a225988e0d1964e091c0865e297f24165477cdd49ac840930a48cd45e
+https://sonydaimenew.akamaized.net/hls/live/2022322/DAI18ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773995529~acl=/*~id=32548495285409691308541362761142~hmac=a500fce8ced351abdbd43ae30f0b0c8a04a1e7db15ec1f67accd1ce2a5502d47
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016182/1773401754869941_UECL_26_RD16_LEG2_Shakhtar-Donetsk-vs-Lech-Poznan_landscape_thumb.jpg" group-title="SonyLiv | Sports",Shakhtar Donetsk vs Lech Poznang - Round of 16 - Leg 2 - 20 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773993091~acl=/*~id=59129977181909199004662454124852~hmac=c3af0b4a225988e0d1964e091c0865e297f24165477cdd49ac840930a48cd45e
+https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773995529~acl=/*~id=32548495285409691308541362761142~hmac=a500fce8ced351abdbd43ae30f0b0c8a04a1e7db15ec1f67accd1ce2a5502d47
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016182/1773332199778941_UECL_26_RD16_LEG2_Rayo-Vallecano-vs-Samsunspor_landscape_thumb.jpg" group-title="SonyLiv | Sports",Rayo Vallecano vs Samsunspor - Round of 16 - Leg 2 - 20 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773993091~acl=/*~id=59129977181909199004662454124852~hmac=c3af0b4a225988e0d1964e091c0865e297f24165477cdd49ac840930a48cd45e
+https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773995529~acl=/*~id=32548495285409691308541362761142~hmac=a500fce8ced351abdbd43ae30f0b0c8a04a1e7db15ec1f67accd1ce2a5502d47
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016182/1773404709363941_UECL_26_RD16_LEG2_Strasbourg-vs-Rijeka_landscape_thumb.jpg" group-title="SonyLiv | Sports",Strasbourg vs Rijeka - Round of 16 - Leg 2 - 20 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773993091~acl=/*~id=59129977181909199004662454124852~hmac=c3af0b4a225988e0d1964e091c0865e297f24165477cdd49ac840930a48cd45e
+https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773995529~acl=/*~id=32548495285409691308541362761142~hmac=a500fce8ced351abdbd43ae30f0b0c8a04a1e7db15ec1f67accd1ce2a5502d47
 
 # ---------------=== FanCode | Sports ===-------------------
 
@@ -16797,8 +16803,6 @@ https://fanco.vodep39240327.workers.dev/141388_english.m3u8
 https://fanco.vodep39240327.workers.dev/141459_english.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB.jpg" group-title="FanCode | Sports",H Court Feed
 https://fanco.vodep39240327.workers.dev/141457_english.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB.jpg" group-title="FanCode | Sports",I Court Feed
-https://fanco.vodep39240327.workers.dev/141531_english.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB.jpg" group-title="FanCode | Sports",World Feed
 https://fanco.vodep39240327.workers.dev/141036_english.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB.jpg" group-title="FanCode | Sports",D Court Feed
