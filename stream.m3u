@@ -16770,15 +16770,12 @@ https://jiotvmblive.cdn.jio.com//bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016290/1773731558452868_NZw_vs_SAw_3rd_T20I_landscape_thumb.jpg" group-title="SonyLiv | Sports",3rd T20I - 20 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018457/DAI35-criclive/std_lrh-800300010.m3u8?hdnea=exp=1774020994~acl=/*~id=57061661550740193485441423478294~hmac=3085223fc13747892be7a73c3b41704ef7fceb750159c3785ddaa792b20f86f5
+
 
 # ---------------=== FanCode | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/South-Africa-Women's-tour-of-New-Zealand-old.jpg" group-title="FanCode | Sports",South Africa Women Vs New Zealand Women
-https://fanco.vodep39240327.workers.dev/141068_english.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/141108_5954_TIG_CIN_1772957805588.png" group-title="FanCode | Sports",Tigres Vs Fc Cincinnati
-https://fanco.vodep39240327.workers.dev/141108_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/141372_6007_MM_SS_FC-Web.jpg" group-title="FanCode | Sports",Manorama Marvels Vs Saryu Smashers
+https://fanco.vodep39240327.workers.dev/141372_english.m3u8
 
 # ---------------=== CS OTT | SONY LIV ===-------------------
 
