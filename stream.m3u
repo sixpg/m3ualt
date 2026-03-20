@@ -4633,25 +4633,25 @@ https://vt-ip.vodep39240327.workers.dev/2705.m3u8
 https://vt-ip.vodep39240327.workers.dev/2868.m3u8
 #EXTINF:-1 tvg-id="2869" tvg-logo="" group-title="CS WORLD | PUNJABI",MEHAK TV HD
 https://vt-ip.vodep39240327.workers.dev/2869.m3u8
-#EXTINF:-1 tvg-id="2620" tvg-logo="" group-title="CS WORLD | SPORTS | PPV EVENTS",PPV EVENT 01: 3pm TX2K26
+#EXTINF:-1 tvg-id="2620" tvg-logo="" group-title="CS WORLD | SPORTS | PPV EVENTS",PPV EVENT 01: 9:30am One Firday Fights 147 Nong O v Imangazaliev
 https://vt-ip.vodep39240327.workers.dev/2620.m3u8
-#EXTINF:-1 tvg-id="2621" tvg-logo="" group-title="CS WORLD | SPORTS | PPV EVENTS",PPV EVENT 02: NO EVENT
+#EXTINF:-1 tvg-id="2621" tvg-logo="" group-title="CS WORLD | SPORTS | PPV EVENTS",PPV EVENT 02: 1pm PFL Van Steenis v Edwards 2
 https://vt-ip.vodep39240327.workers.dev/2621.m3u8
-#EXTINF:-1 tvg-id="2622" tvg-logo="" group-title="CS WORLD | SPORTS | PPV EVENTS",PPV EVENT 03: NO EVENT
+#EXTINF:-1 tvg-id="2622" tvg-logo="" group-title="CS WORLD | SPORTS | PPV EVENTS",PPV EVENT 03: 2/3pm Conlan v Walsh
 https://vt-ip.vodep39240327.workers.dev/2622.m3u8
-#EXTINF:-1 tvg-id="2630" tvg-logo="" group-title="CS WORLD | SPORTS | PPV EVENTS",PPV EVENT 04: NO EVENT
+#EXTINF:-1 tvg-id="2630" tvg-logo="" group-title="CS WORLD | SPORTS | PPV EVENTS",PPV EVENT 04: 2:30/4:30pm Cage Warriors 203
 https://vt-ip.vodep39240327.workers.dev/2630.m3u8
-#EXTINF:-1 tvg-id="2624" tvg-logo="" group-title="CS WORLD | SPORTS | PPV EVENTS",PPV EVENT 05: NO EVENT
+#EXTINF:-1 tvg-id="2624" tvg-logo="" group-title="CS WORLD | SPORTS | PPV EVENTS",PPV EVENT 05: 6pm Shooto Brazil 135
 https://vt-ip.vodep39240327.workers.dev/2624.m3u8
-#EXTINF:-1 tvg-id="2625" tvg-logo="" group-title="CS WORLD | SPORTS | PPV EVENTS",PPV EVENT 06: NO EVENT
+#EXTINF:-1 tvg-id="2625" tvg-logo="" group-title="CS WORLD | SPORTS | PPV EVENTS",PPV EVENT 06: 7pm Toughman Contest
 https://vt-ip.vodep39240327.workers.dev/2625.m3u8
-#EXTINF:-1 tvg-id="2626" tvg-logo="" group-title="CS WORLD | SPORTS | PPV EVENTS",PPV EVENT 07: NO EVENT
+#EXTINF:-1 tvg-id="2626" tvg-logo="" group-title="CS WORLD | SPORTS | PPV EVENTS",PPV EVENT 07: 7pm BKFC 87 Stewart v Gaffie
 https://vt-ip.vodep39240327.workers.dev/2626.m3u8
-#EXTINF:-1 tvg-id="2627" tvg-logo="" group-title="CS WORLD | SPORTS | PPV EVENTS",PPV EVENT 08: NO EVENT
+#EXTINF:-1 tvg-id="2627" tvg-logo="" group-title="CS WORLD | SPORTS | PPV EVENTS",PPV EVENT 08: 10:30pm CMLL Legends Tribute
 https://vt-ip.vodep39240327.workers.dev/2627.m3u8
-#EXTINF:-1 tvg-id="2628" tvg-logo="" group-title="CS WORLD | SPORTS | PPV EVENTS",PPV EVENT 09: NO EVENT
+#EXTINF:-1 tvg-id="2628" tvg-logo="" group-title="CS WORLD | SPORTS | PPV EVENTS",PPV EVENT 09: 10am TX2K26
 https://vt-ip.vodep39240327.workers.dev/2628.m3u8
-#EXTINF:-1 tvg-id="2629" tvg-logo="" group-title="CS WORLD | SPORTS | PPV EVENTS",PPV EVENT 10: NO EVENT
+#EXTINF:-1 tvg-id="2629" tvg-logo="" group-title="CS WORLD | SPORTS | PPV EVENTS",PPV EVENT 10: 4:50pm King of Modifieds South Boston
 https://vt-ip.vodep39240327.workers.dev/2629.m3u8
 #EXTINF:-1 tvg-id="2383" tvg-logo="" group-title="CS WORLD | SPORTS | PPV EVENTS",PPV SPORTS 1 4K
 https://vt-ip.vodep39240327.workers.dev/2383.m3u8
@@ -16774,7 +16774,34 @@ https://jiotvmblive.cdn.jio.com//bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index
 
 # ---------------=== FanCode | Sports ===-------------------
 
-
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ESTRELLA-GALICIA-0,0-GRAND-PRIX-OF-BRAZIL-2026-old-card.png" group-title="FanCode | Sports",Brazil Gp
+https://fanco.vodep39240327.workers.dev/139927_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Valspar-Championship_fc-web.jpg" group-title="FanCode | Sports",Marquee Feed   Day 2	
+https://fanco.vodep39240327.workers.dev/141394_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Valspar-Championship_fc-web.jpg" group-title="FanCode | Sports",Featured Holes   Day 2	
+https://fanco.vodep39240327.workers.dev/141393_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Valspar-Championship_fc-web.jpg" group-title="FanCode | Sports",Main Feed   Day 2	
+https://fanco.vodep39240327.workers.dev/141391_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Valspar-Championship_fc-web.jpg" group-title="FanCode | Sports",Featured Groups   Day 2	
+https://fanco.vodep39240327.workers.dev/141392_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB_1773742804978.jpg" group-title="FanCode | Sports",E Court Feed
+https://fanco.vodep39240327.workers.dev/141461_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB.jpg" group-title="FanCode | Sports",F Court Feed
+https://fanco.vodep39240327.workers.dev/141463_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB.jpg" group-title="FanCode | Sports",I Court Feed
+https://fanco.vodep39240327.workers.dev/141534_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB.jpg" group-title="FanCode | Sports",G Court Feed
+https://fanco.vodep39240327.workers.dev/141535_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB.jpg" group-title="FanCode | Sports",World Feed
+https://fanco.vodep39240327.workers.dev/141038_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB.jpg" group-title="FanCode | Sports",C Court Feed
+https://fanco.vodep39240327.workers.dev/141465_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB.jpg" group-title="FanCode | Sports",A Court Feed
+https://fanco.vodep39240327.workers.dev/141040_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB.jpg" group-title="FanCode | Sports",B Court Feed
+https://fanco.vodep39240327.workers.dev/141464_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB.jpg" group-title="FanCode | Sports",D Court Feed
+https://fanco.vodep39240327.workers.dev/141462_english.m3u8
 
 # ---------------=== CS OTT | SONY LIV ===-------------------
 
