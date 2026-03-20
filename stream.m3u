@@ -16770,8 +16770,7 @@ https://jiotvmblive.cdn.jio.com//bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016248/1773648994019805_IFC_Aizawl_FC-vs-Diamond_Harbour_FC_landscape_thumb.jpg" group-title="SonyLiv | Sports",Aizawl FC vs Diamond Harbour FC - 20 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1774060414~acl=/*~id=05446907404548963472012962917237~hmac=0971ad62f190ff6596c41bdaf871098bff7eeb06c10d7708dc01667822312b7f
+
 
 # ---------------=== FanCode | Sports ===-------------------
 
@@ -16805,6 +16804,10 @@ https://fanco.vodep39240327.workers.dev/141463_english.m3u8
 https://fanco.vodep39240327.workers.dev/141534_english.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB.jpg" group-title="FanCode | Sports",G Court Feed
 https://fanco.vodep39240327.workers.dev/141535_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB.jpg" group-title="FanCode | Sports",World Feed
+https://fanco.vodep39240327.workers.dev/141038_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB.jpg" group-title="FanCode | Sports",C Court Feed
+https://fanco.vodep39240327.workers.dev/141465_english.m3u8
 
 # ---------------=== CS OTT | SONY LIV ===-------------------
 
