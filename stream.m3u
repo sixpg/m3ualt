@@ -15441,13 +15441,13 @@ https://jiotvmblive.cdn.jio.com//bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016385/1773901060572992_UFC_Fight_Night_Evloev_vs_Murphy_landscape_thumbnail.jpg" group-title="SonyLiv | Sports",UFC Fight Night - Evloev vs Murphy - 22 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-UFC/std_lrh-800300010.m3u8?hdnea=exp=1774171303~acl=/*~id=30726944125014868981263238696114~hmac=fcce36634794065d98655272e2398811ca7c8feb63dcffffbd040ce96f63d80a
+https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-UFC/std_lrh-800300010.m3u8?hdnea=exp=1774172515~acl=/*~id=67402527080724264109093965559968~hmac=313fc97889dc1ed286456c4a0a033a88a658e63f7edd4581d853fc03ff8c6599
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016385/1773901060572992_UFC_Fight_Night_Evloev_vs_Murphy_landscape_thumbnail.jpg" group-title="SonyLiv | Sports",UFC Fight Night - Evloev vs Murphy - 22 Mar 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-UFC/std_lrh-800300010.m3u8?hdnea=exp=1774171303~acl=/*~id=30726944125014868981263238696114~hmac=fcce36634794065d98655272e2398811ca7c8feb63dcffffbd040ce96f63d80a
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-UFC/std_lrh-800300010.m3u8?hdnea=exp=1774172515~acl=/*~id=67402527080724264109093965559968~hmac=313fc97889dc1ed286456c4a0a033a88a658e63f7edd4581d853fc03ff8c6599
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016385/1773901060572992_UFC_Fight_Night_Evloev_vs_Murphy_landscape_thumbnail.jpg" group-title="SonyLiv | Sports",UFC Fight Night - Evloev vs Murphy - 22 Mar 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-UFC/std_lrh-800300010.m3u8?hdnea=exp=1774171303~acl=/*~id=30726944125014868981263238696114~hmac=fcce36634794065d98655272e2398811ca7c8feb63dcffffbd040ce96f63d80a
+https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-UFC/std_lrh-800300010.m3u8?hdnea=exp=1774172515~acl=/*~id=67402527080724264109093965559968~hmac=313fc97889dc1ed286456c4a0a033a88a658e63f7edd4581d853fc03ff8c6599
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016385/1773901060572992_UFC_Fight_Night_Evloev_vs_Murphy_landscape_thumbnail.jpg" group-title="SonyLiv | Sports",UFC Fight Night - Evloev vs Murphy - 22 Mar 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-UFC/std_lrh-800300010.m3u8?hdnea=exp=1774171303~acl=/*~id=30726944125014868981263238696114~hmac=fcce36634794065d98655272e2398811ca7c8feb63dcffffbd040ce96f63d80a
+https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-UFC/std_lrh-800300010.m3u8?hdnea=exp=1774172515~acl=/*~id=67402527080724264109093965559968~hmac=313fc97889dc1ed286456c4a0a033a88a658e63f7edd4581d853fc03ff8c6599
 
 # ---------------=== FanCode | Sports ===-------------------
 
@@ -15455,8 +15455,6 @@ https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-UFC/std_lrh-80030001
 https://fanco.vodep39240327.workers.dev/131118_english.m3u8
 #EXTINF:-1 tvg-logo="https://images.fancode.com/aig/match/v1773431102732/141410_CASACARDS_APP.png" group-title="FanCode | Sports",Deportivo Alaves Vs Real Zaragoza
 https://fanco.vodep39240327.workers.dev/141410_english.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Valspar-Championship_fc-web.jpg" group-title="FanCode | Sports",Featured Holes   Day 3	
-https://fanco.vodep39240327.workers.dev/141398_english.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Valspar-Championship_fc-web.jpg" group-title="FanCode | Sports",Featured Groups   Day 3	
 https://fanco.vodep39240327.workers.dev/141397_english.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB_1773742804978.jpg" group-title="FanCode | Sports",World Feed
