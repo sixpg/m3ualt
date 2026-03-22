@@ -15441,16 +15441,24 @@ https://jiotvmblive.cdn.jio.com//bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016394/1773922645704180_Golf_SA_Day4_landscape_thumb.jpg" group-title="SonyLiv | Sports",Day 4 - 22 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1774222267~acl=/*~id=82207233787292520684956474174257~hmac=a52895e3da6aa892cb6d606e566244546d5dd958fbb9e10fd39dcc570d09f5a4
+https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1774223480~acl=/*~id=83213424757309886560477378437777~hmac=2e8fc749d5fbd22e15994444f276ac55bf37894d9c5020ca11ed73170bac7903
 
 # ---------------=== FanCode | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/141377_6007_MM_CC_FC-Web.jpg" group-title="FanCode | Sports",Manorama Marvels Vs Chambal Chargers
-https://fanco.vodep39240327.workers.dev/141377_english.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/141339_6005_CML_ALA_fc-Web_1773994359668.jpg" group-title="FanCode | Sports",Chennai Marvels Vs Ahmedabad Lions
 https://fanco.vodep39240327.workers.dev/141339_english.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140922_5802_PG_MLC_fc-web.jpg" group-title="FanCode | Sports",Perth Glory Vs Melbourne City
-https://fanco.vodep39240327.workers.dev/140922_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140471_5956_CFC_FCG_FC-Web_1772452289464.jpg" group-title="FanCode | Sports",Chennaiyin Fc Vs Fc Goa
+https://fanco.vodep39240327.workers.dev/140471_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140471_5956_CFC_FCG_FC-Web_1772452289464.jpg" group-title="FanCode | Sports",Chennaiyin Fc Vs Fc Goa
+https://fanco.vodep39240327.workers.dev/140471_hindi.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140471_5956_CFC_FCG_FC-Web_1772452289464.jpg" group-title="FanCode | Sports",Chennaiyin Fc Vs Fc Goa
+https://fanco.vodep39240327.workers.dev/140471_tamil.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140471_5956_CFC_FCG_FC-Web_1772452289464.jpg" group-title="FanCode | Sports",Chennaiyin Fc Vs Fc Goa
+https://fanco.vodep39240327.workers.dev/140471_malayalam.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140471_5956_CFC_FCG_FC-Web_1772452289464.jpg" group-title="FanCode | Sports",Chennaiyin Fc Vs Fc Goa
+https://fanco.vodep39240327.workers.dev/140471_bengali.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/141183_5973_CFC_FCG_fc-web.jpg" group-title="FanCode | Sports",Chennaiyin Fc Vs Fc Goa
+https://fanco.vodep39240327.workers.dev/141183_tamil.m3u8
 
 # ---------------=== CS OTT | SONY LIV ===-------------------
 
