@@ -15441,7 +15441,9 @@ https://jiotvmblive.cdn.jio.com//bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015779/1772448876155634_BLIGA_26_MD28_Mainz-vs-Eintracht-Frankfurt_landscape_thumb.jpg" group-title="SonyLiv | Sports",Mainz vs Eintracht Frankfurt - MD 27 - 22 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000091/DAI04-M5/std_lrh-800300010.m3u8?hdnea=exp=1774236827~acl=/*~id=46837037928369018955567966701503~hmac=48c1bac53345483a523b3a849a1d7e8419553e8b8389024e77dac5bd2a80c5ac
+https://sonydaimenew.akamaized.net/hls/live/20000091/DAI04-M5/std_lrh-800300010.m3u8?hdnea=exp=1774238039~acl=/*~id=74654429906414032267760722632534~hmac=25e50b8c766ce294aea63c6ee65ccb1ab9775d1bf7a7eab07142ba6b6670427d
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015779/1772449280640634_BLIGA_26_MD28_St-Pauli-vs-SC-Freiburg_landscape_thumb.jpg" group-title="SonyLiv | Sports",St. Pauli vs SC Freiburg - MD 27 - 22 Mar 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1774238039~acl=/*~id=74654429906414032267760722632534~hmac=25e50b8c766ce294aea63c6ee65ccb1ab9775d1bf7a7eab07142ba6b6670427d
 
 # ---------------=== FanCode | Sports ===-------------------
 
@@ -15475,6 +15477,8 @@ https://fanco.vodep39240327.workers.dev/141044_english.m3u8
 https://fanco.vodep39240327.workers.dev/141474_english.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB_1773742804978.jpg" group-title="FanCode | Sports",B Court Feed
 https://fanco.vodep39240327.workers.dev/141471_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB_1773742804978.jpg" group-title="FanCode | Sports",C Court Feed
+https://fanco.vodep39240327.workers.dev/141472_english.m3u8
 
 # ---------------=== CS OTT | SONY LIV ===-------------------
 
