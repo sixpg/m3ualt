@@ -15441,18 +15441,20 @@ https://jiotvmblive.cdn.jio.com//bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015779/1772448876155634_BLIGA_26_MD28_Mainz-vs-Eintracht-Frankfurt_landscape_thumb.jpg" group-title="SonyLiv | Sports",Mainz vs Eintracht Frankfurt - MD 27 - 22 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000091/DAI04-M5/std_lrh-800300010.m3u8?hdnea=exp=1774233794~acl=/*~id=68917099286402823066910652320082~hmac=cd57f1242bfa82009b7f4b07eb166e7d728547d9dfb002f7ed61eb70b5a60201
+https://sonydaimenew.akamaized.net/hls/live/20000091/DAI04-M5/std_lrh-800300010.m3u8?hdnea=exp=1774235614~acl=/*~id=60047822331900827236570427996852~hmac=a98feba4d528a145389b3f45edfc33cc509d51e854cb80a4b7cd7c1ab2ae6922
 
 # ---------------=== FanCode | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/141160_5826_BHA-W_LIV-W_FC-Web.jpg" group-title="FanCode | Sports",Brighton And Hove Albion Women Vs Liverpool Women
-https://fanco.vodep39240327.workers.dev/141160_english.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131114_5427_BAR_RVL_FC-Web.png" group-title="FanCode | Sports",Fc Barcelona Vs Rayo Vallecano
-https://fanco.vodep39240327.workers.dev/131114_english.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131114_5427_BAR_RVL_FC-Web.png" group-title="FanCode | Sports",Fc Barcelona Vs Rayo Vallecano
-https://fanco.vodep39240327.workers.dev/131114_hindi.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131114_5427_BAR_RVL_FC-Web.png" group-title="FanCode | Sports",Fc Barcelona Vs Rayo Vallecano
-https://fanco.vodep39240327.workers.dev/131114_bengali.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140472_5956_KSHI_BFC_FC-Web_1772452359219.jpg" group-title="FanCode | Sports",Inter Kashi Fc Vs Bengaluru Fc
+https://fanco.vodep39240327.workers.dev/140472_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140472_5956_KSHI_BFC_FC-Web_1772452359219.jpg" group-title="FanCode | Sports",Inter Kashi Fc Vs Bengaluru Fc
+https://fanco.vodep39240327.workers.dev/140472_hindi.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140472_5956_KSHI_BFC_FC-Web_1772452359219.jpg" group-title="FanCode | Sports",Inter Kashi Fc Vs Bengaluru Fc
+https://fanco.vodep39240327.workers.dev/140472_malayalam.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140472_5956_KSHI_BFC_FC-Web_1772452359219.jpg" group-title="FanCode | Sports",Inter Kashi Fc Vs Bengaluru Fc
+https://fanco.vodep39240327.workers.dev/140472_bengali.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/141161_5826_LEI-W_AST-W_FC-Web.jpg" group-title="FanCode | Sports",Leicester City Women Vs Aston Villa Women
+https://fanco.vodep39240327.workers.dev/141161_english.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Valspar-Championship_fc-web.jpg" group-title="FanCode | Sports",Marquee Feed   Day 4	
 https://fanco.vodep39240327.workers.dev/141404_english.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ESTRELLA-GALICIA-0,0-GRAND-PRIX-OF-BRAZIL-2026-old-card.png" group-title="FanCode | Sports",Brazil Gp
@@ -15465,6 +15467,12 @@ https://fanco.vodep39240327.workers.dev/141403_english.m3u8
 https://fanco.vodep39240327.workers.dev/141402_english.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1773989745777.png" group-title="FanCode | Sports",Day 3
 https://fanco.vodep39240327.workers.dev/141445_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB_1773742804978.jpg" group-title="FanCode | Sports",World Feed
+https://fanco.vodep39240327.workers.dev/141044_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB_1773742804978.jpg" group-title="FanCode | Sports",F Court Feed
+https://fanco.vodep39240327.workers.dev/141474_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB_1773742804978.jpg" group-title="FanCode | Sports",B Court Feed
+https://fanco.vodep39240327.workers.dev/141471_english.m3u8
 
 # ---------------=== CS OTT | SONY LIV ===-------------------
 
