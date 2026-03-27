@@ -702,7 +702,7 @@ https://aasthaott.akamaized.net/110923/smil:aasthausa.smil/playlist.m3u8?hdntl=e
 # ---------------=== CS OTT | Extra ===-------------------
 
 #EXTM3U
-# Auto-refresh every minute | 4914 Channels
+# Auto-refresh every minute | 4918 Channels
 #EXTINF:-1 tvg-id="2152" tvg-logo="" group-title="CS WORLD | ENGLISH",GLOBAL TORONTO 4K
 https://vt-ip.vodep39240327.workers.dev/2152.m3u8
 #EXTINF:-1 tvg-id="11" tvg-logo="" group-title="CS WORLD | ENGLISH",GLOBAL MONTREAL 4K
@@ -3659,24 +3659,32 @@ https://vt-ip.vodep39240327.workers.dev/1294.m3u8
 https://vt-ip.vodep39240327.workers.dev/1295.m3u8
 #EXTINF:-1 tvg-id="1978" tvg-logo="" group-title="CS WORLD | ARABIC",LANA TV
 https://vt-ip.vodep39240327.workers.dev/1978.m3u8
-#EXTINF:-1 tvg-id="6624" tvg-logo="" group-title="CS WORLD | SPORTS | CRICKET",PPV CRICKET 1 4K
+#EXTINF:-1 tvg-id="6624" tvg-logo="" group-title="CS WORLD | SPORTS | CRICKET",IPL 2026 1 4K - ENGLISH
 https://vt-ip.vodep39240327.workers.dev/6624.m3u8
-#EXTINF:-1 tvg-id="2010" tvg-logo="" group-title="CS WORLD | SPORTS | CRICKET",PPV CRICKET 2 4K
+#EXTINF:-1 tvg-id="2010" tvg-logo="" group-title="CS WORLD | SPORTS | CRICKET",IPL 2026 2 4K - HINDI
 https://vt-ip.vodep39240327.workers.dev/2010.m3u8
-#EXTINF:-1 tvg-id="2011" tvg-logo="" group-title="CS WORLD | SPORTS | CRICKET",PPV CRICKET 3 4K
+#EXTINF:-1 tvg-id="2011" tvg-logo="" group-title="CS WORLD | SPORTS | CRICKET",IPL 2026 3 4K - ENGLISH
 https://vt-ip.vodep39240327.workers.dev/2011.m3u8
-#EXTINF:-1 tvg-id="2012" tvg-logo="" group-title="CS WORLD | SPORTS | CRICKET",PPV CRICKET 4 4K
+#EXTINF:-1 tvg-id="2012" tvg-logo="" group-title="CS WORLD | SPORTS | CRICKET",IPL 2026 4 4K - ENGLISH
 https://vt-ip.vodep39240327.workers.dev/2012.m3u8
-#EXTINF:-1 tvg-id="2013" tvg-logo="" group-title="CS WORLD | SPORTS | CRICKET",PPV CRICKET 5 4K
+#EXTINF:-1 tvg-id="2013" tvg-logo="" group-title="CS WORLD | SPORTS | CRICKET",IPL 2026 5 4K - ENGLISH
 https://vt-ip.vodep39240327.workers.dev/2013.m3u8
-#EXTINF:-1 tvg-id="2014" tvg-logo="" group-title="CS WORLD | SPORTS | CRICKET",PPV CRICKET 6 4K
+#EXTINF:-1 tvg-id="2014" tvg-logo="" group-title="CS WORLD | SPORTS | CRICKET",IPL 2026 6 4K - PUNJABI
 https://vt-ip.vodep39240327.workers.dev/2014.m3u8
-#EXTINF:-1 tvg-id="2213" tvg-logo="" group-title="CS WORLD | SPORTS | CRICKET",PPV CRICKET 7 4K
+#EXTINF:-1 tvg-id="2213" tvg-logo="" group-title="CS WORLD | SPORTS | CRICKET",IPL 2026 7 4K - GUJARATI
 https://vt-ip.vodep39240327.workers.dev/2213.m3u8
-#EXTINF:-1 tvg-id="2612" tvg-logo="" group-title="CS WORLD | SPORTS | CRICKET",PPV CRICKET 8 4K
+#EXTINF:-1 tvg-id="2612" tvg-logo="" group-title="CS WORLD | SPORTS | CRICKET",IPL 2026 8 8K - ENGLISH
 https://vt-ip.vodep39240327.workers.dev/2612.m3u8
-#EXTINF:-1 tvg-id="2613" tvg-logo="" group-title="CS WORLD | SPORTS | CRICKET",PPV CRICKET 9 4K
+#EXTINF:-1 tvg-id="2613" tvg-logo="" group-title="CS WORLD | SPORTS | CRICKET",IPL 2026 9 8K - ENGLISH
 https://vt-ip.vodep39240327.workers.dev/2613.m3u8
+#EXTINF:-1 tvg-id="6660" tvg-logo="" group-title="CS WORLD | SPORTS | CRICKET",PSL 11 1 4K - ENGLISH
+https://vt-ip.vodep39240327.workers.dev/6660.m3u8
+#EXTINF:-1 tvg-id="6661" tvg-logo="" group-title="CS WORLD | SPORTS | CRICKET",PSL 11 2 4K - URDU
+https://vt-ip.vodep39240327.workers.dev/6661.m3u8
+#EXTINF:-1 tvg-id="6662" tvg-logo="" group-title="CS WORLD | SPORTS | CRICKET",PSL 11 3 4K - ENGLISH
+https://vt-ip.vodep39240327.workers.dev/6662.m3u8
+#EXTINF:-1 tvg-id="6663" tvg-logo="" group-title="CS WORLD | SPORTS | CRICKET",PSL 11 4 4K - URDU
+https://vt-ip.vodep39240327.workers.dev/6663.m3u8
 #EXTINF:-1 tvg-id="6284" tvg-logo="" group-title="CS WORLD | SPORTS | CRICKET",WILLOW SPORTS 4K*
 https://vt-ip.vodep39240327.workers.dev/6284.m3u8
 #EXTINF:-1 tvg-id="2028" tvg-logo="" group-title="CS WORLD | SPORTS | CRICKET",WILLOW 4K*
