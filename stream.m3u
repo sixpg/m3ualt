@@ -10590,18 +10590,14 @@ https://jiotvmblive.cdn.jio.com//bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016646/1774623025080696_NZw_vs_SAw_1st_ODI_landscape_thumb.jpg" group-title="SonyLiv | Sports",1st ODI - 29 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094589/NZvsSAwo2803/ENG/std_lrh-800300010.m3u8?hdnea=exp=1774804966~acl=/*~id=05173604444652294733369433923059~hmac=7907b5411046def93d860413ddfa6a666dd2646ebbffaa8e766054a6cf74ca52
+https://sonydaimenew.akamaized.net/hls/live/2094589/NZvsSAwo2803/ENG/std_lrh-800300010.m3u8?hdnea=exp=1774809214~acl=/*~id=00380762353398445613727964619361~hmac=d432828aa693783185de40cf76d6e4118b6c9c2ca29dc3a4d5372c1e554c0912
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016532/177435941241137_DP_World_Tour26_Hero_Indian_Open_day4_24mar_landscape_thumb.jpg" group-title="SonyLiv | Sports",Hero Indian Open Day 4 - 29 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005444/DP_World2903/ENG/std_lrh-800300010.m3u8?hdnea=exp=1774804966~acl=/*~id=05173604444652294733369433923059~hmac=7907b5411046def93d860413ddfa6a666dd2646ebbffaa8e766054a6cf74ca52
+https://sonydaimenew.akamaized.net/hls/live/2005444/DP_World2903/ENG/std_lrh-800300010.m3u8?hdnea=exp=1774809214~acl=/*~id=00380762353398445613727964619361~hmac=d432828aa693783185de40cf76d6e4118b6c9c2ca29dc3a4d5372c1e554c0912
 
 # ---------------=== FanCode | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://images.fancode.com/aig/match/v1774667324846/141217_CASACARDS_APP.png" group-title="FanCode | Sports",Melbourne City Women Vs Pfc Nasaf
-https://fanco.vodep39240327.workers.dev/141217_english.m3u8
 #EXTINF:-1 tvg-logo="https://images.fancode.com/skillup-uploads/cms-media/134042_5609_VCT_SAU_FC-Web.png" group-title="FanCode | Sports",Victoria Vs South Australia
 https://fanco.vodep39240327.workers.dev/134044_english.m3u8
-#EXTINF:-1 tvg-logo="https://images.fancode.com/skillup-uploads/cms-media/Ferrari-Challenge-Series_fc-web.jpg" group-title="FanCode | Sports",Ferrari Challenge Series
-https://fanco.vodep39240327.workers.dev/141603_english.m3u8
 
 # ---------------=== CS OTT | SONY LIV ===-------------------
 
