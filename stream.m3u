@@ -15412,12 +15412,14 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Kadak_MOB/WDVLive/index.mpd?__hdnea__=st=
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016646/1774623263469696_NZw_vs_SAw_2nd_ODI_landscape_thumb.jpg" group-title="SonyLiv | Sports",2nd ODI - 1 Apr 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094588/NZWomen_3103/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775043276~acl=/*~id=57084852922109511304922413547299~hmac=00a2351876f7a7f7b4705f987b23b89ff97aed1d86b15ef6fbb9cc5c4a0389d0
+https://sonydaimenew.akamaized.net/hls/live/2094588/NZWomen_3103/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775045096~acl=/*~id=98485993210768876974657677934447~hmac=d2180a737f4a6278daa2b7f684de08cec58b84f485722c13fc163dd697cb90a1
 
 # ---------------=== FanCode | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://images.fancode.com/skillup-uploads/cms-media/South-Africa-Women's-tour-of-New-Zealand-ODIs-old.jpg" group-title="FanCode | Sports",New Zealand Women Vs South Africa Women
 https://fanco.vodep39240327.workers.dev/141072_english.m3u8
+#EXTINF:-1 tvg-logo="https://images.fancode.com/skillup-uploads/cms-media/Brazil_vs_Croatia_International_Friendlies_WEB.jpg" group-title="FanCode | Sports",Brazil Vs Croatia
+https://fanco.vodep39240327.workers.dev/141608_english.m3u8
 #EXTINF:-1 tvg-logo="https://images.fancode.com/skillup-uploads/cms-media/ATP--250-Clay-Court-Championship_fc-web.jpg" group-title="FanCode | Sports",United Vs States
 https://fanco.vodep39240327.workers.dev/141076_english.m3u8
 
