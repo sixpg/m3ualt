@@ -83,7 +83,7 @@ function convertSportsJson(json){
   urlObj.searchParams.delete("drmLicense");
   urlObj.searchParams.delete("User-Agent");
 
-  out.push(`#EXTINF:-1 tvg-id="${1100+i}" tvg-logo="https://img.u0k.workers.dev/CosmicSports.webp" group-title="IPL | LIVE",${s.language || "IPL | Live"}`);
+  out.push(`#EXTINF:-1 tvg-id="${1100+i}" tvg-logo="https://img.u0k.workers.dev/CosmicSports.webp" group-title="IPL LIVE",${s.language || "IPL Live"}`);
   out.push(`#KODIPROP:inputstream.adaptive.license_type=clearkey`);
   out.push(`#KODIPROP:inputstream.adaptive.license_key=${kid}:${key}`);
   out.push(`#EXTHTTP:${JSON.stringify({Cookie:hdnea?`__hdnea__=${hdnea}`:"","User-Agent":ua})}`);
@@ -128,30 +128,18 @@ async function run(){
  const zee5=await safeFetch(SOURCES.ZEE5_M3U);
  if(zee5) out.push(section("CS OTT | ZEE5"),zee5);
   
-// 5️⃣ JIOTV+
+ // 5️⃣ JIOTV+
  const jio=await safeFetch(SOURCES.JIO_JSON);
- if(jio) out.push(section("JioTv+ | ⭕"),convertJioJson(jio));
+ if(jio) out.push(section("JioTv+"),convertJioJson(jio));
   
- // 6️⃣ FANCODE
+  // 6️⃣ FANCODE
  const fan=await safeFetch(SOURCES.FANCODE_JSON);
  if(fan) out.push(section("FanCode | Sports"),fan);
-
- // 7️⃣ SONYLIV EVENTS
+  
+  // 7️⃣ SONYLIV EVENTS
  const sony=await safeFetch(SOURCES.SONYLIV_JSON);
  if(sony) out.push(section("SonyLiv | Sports"),convertSony(sony));
-
- // 8️⃣ SONYLIV DIGITAL
- const digital=await safeFetch(SOURCES.SONYLIV_M3U);
- if(digital){
-  const fixed=digital.split("\n").map(l=>{
-    if(l.startsWith("#EXTINF")){
-      return l.replace(/group-title="[^"]*"/,'group-title="CS OTT | SONY LIV"');
-    }
-    return l;
-  }).join("\n");
-
-  out.push(section("CS OTT | SONY LIV"),fixed);
- }
+  
  // 4️⃣ NEW M3U (UNCHANGED)
  const newm3u = await safeFetch(SOURCES.NEW_M3U);
  if(newm3u){
@@ -170,6 +158,19 @@ async function run(){
   }).join("\n");
 
   out.push(section("CS OTT | Extra"), categorized);
+ }
+
+ // 8️⃣ SONYLIV DIGITAL
+ const digital=await safeFetch(SOURCES.SONYLIV_M3U);
+ if(digital){
+  const fixed=digital.split("\n").map(l=>{
+    if(l.startsWith("#EXTINF")){
+      return l.replace(/group-title="[^"]*"/,'group-title="CS OTT | SONY LIV"');
+    }
+    return l;
+  }).join("\n");
+
+  out.push(section("CS OTT | SONY LIV"),fixed);
  }
 
  // ICC (unchanged)
