@@ -12,7 +12,6 @@ const SOURCES = {
   FANCODE_JSON: "https://fanco.vodep39240327.workers.dev/",
   ICC_TV_JSON: "https://icc.vodep39240327.workers.dev/icctv.jso",
 
-  // ✅ TWO SPORTS JSON
   SPORTS_JSON: [
     "https://sports.vodep39240327.workers.dev/sports111.json",
     "https://gentle-moon-6383.lrl45.workers.dev/stream.json"
@@ -39,6 +38,23 @@ const PLAYLIST_FOOTER = `
 
 function section(title) {
   return `\n# ---------------=== ${title} ===-------------------\n`;
+}
+
+// ================= JIO (RESTORED - REQUIRED) =================
+function convertJioJson(json){
+ const out=[];
+ for(const id in json){
+  const ch=json[id];
+  const cookie=`hdnea=${ch.url.match(/__hdnea__=([^&]*)/)?.[1]||""}`;
+  const category=(ch.group_title||"GENERAL").toUpperCase();
+
+  out.push(`#EXTINF:-1 tvg-id="${id}" tvg-logo="${ch.tvg_logo}" group-title="JIOTV+ | ${category}",${ch.channel_name}`);
+  out.push(`#KODIPROP:inputstream.adaptive.license_type=clearkey`);
+  out.push(`#KODIPROP:inputstream.adaptive.license_key=${ch.kid}:${ch.key}`);
+  out.push(`#EXTHTTP:${JSON.stringify({Cookie:cookie,"User-Agent":ch.user_agent})}`);
+  out.push(ch.url);
+ }
+ return out.join("\n");
 }
 
 // ================= SPORTS =================
@@ -94,15 +110,15 @@ async function run(){
   out.push(section("IPL"), convertSportsJson({streams: sportsCombined}));
  }
 
- // ✅ 2. Jio Cinema (UNCHANGED)
+ // ✅ 2. Jio Cinema
  const hotstar=await safeFetch(SOURCES.HOTSTAR_M3U);
  if(hotstar) out.push(section("CS OTT | Jio Cinema"),hotstar);
 
- // ✅ 3. ZEE5 (UNCHANGED)
+ // ✅ 3. ZEE5
  const zee5=await safeFetch(SOURCES.ZEE5_M3U);
  if(zee5) out.push(section("CS OTT | ZEE5"),zee5);
 
- // ✅ 4. NEW M3U (UNCHANGED LOGIC)
+ // ✅ 4. NEW M3U (UNCHANGED)
  const newm3u = await safeFetch(SOURCES.NEW_M3U);
  if(newm3u){
   const categorized = newm3u.split("\n").map(line=>{
@@ -122,19 +138,19 @@ async function run(){
   out.push(section("CS OTT | Extra"), categorized);
  }
 
- // ✅ 5. JIO (UNCHANGED FULL LOGIC WITH DRM + CATEGORY)
+ // ✅ 5. JIOTV+ (WITH CATEGORIES + DRM)
  const jio=await safeFetch(SOURCES.JIO_JSON);
  if(jio) out.push(section("JioTv+"),convertJioJson(jio));
 
- // ✅ 6. FANCODE (UNCHANGED)
+ // ✅ 6. FANCODE
  const fan=await safeFetch(SOURCES.FANCODE_JSON);
- if(fan) out.push(section("FanCode | Sports"),convertFan(fan));
+ if(fan) out.push(section("FanCode | Sports"),fan);
 
- // ✅ 7. SONYLIV EVENTS (UNCHANGED)
+ // ✅ 7. SONYLIV EVENTS
  const sony=await safeFetch(SOURCES.SONYLIV_JSON);
  if(sony) out.push(section("SonyLiv | Sports"),convertSony(sony));
 
- // ✅ 8. SONYLIV DIGITAL (UNCHANGED)
+ // ✅ 8. SONYLIV DIGITAL
  const digital=await safeFetch(SOURCES.SONYLIV_M3U);
  if(digital){
   const fixed=digital.split("\n").map(l=>{
@@ -147,7 +163,6 @@ async function run(){
   out.push(section("CS OTT | SONY LIV"),fixed);
  }
 
- // ICC untouched
  const icc=await safeFetch(SOURCES.ICC_TV_JSON);
  if(icc) out.push(section("ICC TV"),icc);
 
