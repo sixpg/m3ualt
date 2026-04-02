@@ -83,7 +83,7 @@ function convertSportsJson(json){
   urlObj.searchParams.delete("drmLicense");
   urlObj.searchParams.delete("User-Agent");
 
-  out.push(`#EXTINF:-1 tvg-id="${1100+i}" tvg-logo="https://img.u0k.workers.dev/CosmicSports.webp" group-title="IPL LIVE",${s.language || "IPL Live"}`);
+  out.push(`#EXTINF:-1 tvg-id="${1100+i}" tvg-logo="https://img.u0k.workers.dev/CosmicSports.webp" group-title="IPL | LIVE",${s.language || "IPL | Live"}`);
   out.push(`#KODIPROP:inputstream.adaptive.license_type=clearkey`);
   out.push(`#KODIPROP:inputstream.adaptive.license_key=${kid}:${key}`);
   out.push(`#EXTHTTP:${JSON.stringify({Cookie:hdnea?`__hdnea__=${hdnea}`:"","User-Agent":ua})}`);
@@ -131,27 +131,7 @@ async function run(){
 // 5️⃣ JIOTV+
  const jio=await safeFetch(SOURCES.JIO_JSON);
  if(jio) out.push(section("JioTv+ | ⭕"),convertJioJson(jio));
-
- // 4️⃣ NEW M3U (UNCHANGED)
- const newm3u = await safeFetch(SOURCES.NEW_M3U);
- if(newm3u){
-  const categorized = newm3u.split("\n").map(line=>{
-    if(line.startsWith("#EXTINF")){
-      const match = line.match(/group-title="([^"]*)"/);
-
-      if(match){
-        const original = match[1].toUpperCase();
-        return line.replace(/group-title="[^"]*"/, `group-title="CS WORLD | ${original}"`);
-      } else {
-        return line.replace('#EXTINF:-1', `#EXTINF:-1 group-title="CS WORLD | OTHER"`);
-      }
-    }
-    return line;
-  }).join("\n");
-
-  out.push(section("CS OTT | Extra"), categorized);
- }
-
+  
  // 6️⃣ FANCODE
  const fan=await safeFetch(SOURCES.FANCODE_JSON);
  if(fan) out.push(section("FanCode | Sports"),fan);
@@ -171,6 +151,25 @@ async function run(){
   }).join("\n");
 
   out.push(section("CS OTT | SONY LIV"),fixed);
+ }
+ // 4️⃣ NEW M3U (UNCHANGED)
+ const newm3u = await safeFetch(SOURCES.NEW_M3U);
+ if(newm3u){
+  const categorized = newm3u.split("\n").map(line=>{
+    if(line.startsWith("#EXTINF")){
+      const match = line.match(/group-title="([^"]*)"/);
+
+      if(match){
+        const original = match[1].toUpperCase();
+        return line.replace(/group-title="[^"]*"/, `group-title="CS WORLD | ${original}"`);
+      } else {
+        return line.replace('#EXTINF:-1', `#EXTINF:-1 group-title="CS WORLD | OTHER"`);
+      }
+    }
+    return line;
+  }).join("\n");
+
+  out.push(section("CS OTT | Extra"), categorized);
  }
 
  // ICC (unchanged)
