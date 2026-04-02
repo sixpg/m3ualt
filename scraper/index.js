@@ -11,10 +11,14 @@ const SOURCES = {
   SONYLIV_JSON: "https://raw.githubusercontent.com/drmlive/sliv-live-events/main/sonyliv.json",
   FANCODE_JSON: "https://fanco.vodep39240327.workers.dev/",
   ICC_TV_JSON: "https://icc.vodep39240327.workers.dev/icctv.jso",
-  SPORTS_JSON: "https://sports.vodep39240327.workers.dev/sports.json",
 
-  SONGHAR_SONYLIV: "https://raw.githubusercontent.com/Sflex0719/SonGharLive/main/SL.m3u",
+  // ✅ UPDATED (2 JSONs)
+  SPORTS_JSON: [
+    "https://sports.vodep39240327.workers.dev/sports111.json",
+    "https://gentle-moon-6383.lrl45.workers.dev/stream.json"
+  ],
 
+  SONYLIV_M3U: "https://raw.githubusercontent.com/ytyou4777/sony-playlist/main/SONY.m3u",
   NEW_M3U: "https://vt-ip.vodep39240327.workers.dev/playlist.m3u8?url=http://jiotv.be/stalker_portal/c&mac=00:1A:79:97:55:B9&deviceId1=B8F453DCDAEE02318C9FA912D9E409EE96B75AE592A70B526AA84478533C0A66&deviceId2=B8F453DCDAEE02318C9FA912D9E409EE96B75AE592A70B526AA84478533C0A66&sn=500482917046B",
 
   LOCAL_JSON: [
@@ -131,7 +135,8 @@ function convertSportsJson(json){
   urlObj.searchParams.delete("drmLicense");
   urlObj.searchParams.delete("User-Agent");
 
-  out.push(`#EXTINF:-1 tvg-id="${1100+i}" tvg-logo="https://img.u0k.workers.dev/CosmicSports.webp" group-title="MATCHES",${s.language}`);
+  // ✅ FORCED IPL LIVE GROUP
+  out.push(`#EXTINF:-1 tvg-id="${1100+i}" tvg-logo="https://img.u0k.workers.dev/CosmicSports.webp" group-title="IPL LIVE",${s.language || "IPL Live"}`);
   out.push(`#KODIPROP:inputstream.adaptive.license_type=clearkey`);
   out.push(`#KODIPROP:inputstream.adaptive.license_key=${kid}:${key}`);
   out.push(`#EXTHTTP:${JSON.stringify({Cookie:hdnea?`__hdnea__=${hdnea}`:"","User-Agent":ua})}`);
@@ -180,7 +185,7 @@ async function run(){
  const zee5=await safeFetch(SOURCES.ZEE5_M3U);
  if(zee5) out.push(section("CS OTT | ZEE5"),zee5);
 
- // ✅ ONLY CHANGE HERE
+ // NEW M3U (UNCHANGED)
  const newm3u = await safeFetch(SOURCES.NEW_M3U);
  if(newm3u){
   const categorized = newm3u.split("\n").map(line=>{
@@ -204,11 +209,20 @@ async function run(){
  const jio=await safeFetch(SOURCES.JIO_JSON);
  if(jio) out.push(section("JioTv+"),convertJioJson(jio));
 
- // MATCHES
- const sports=await safeFetch(SOURCES.SPORTS_JSON);
- if(sports) out.push(section("Match | Live"),convertSportsJson(sports));
+ // ✅ MERGED SPORTS JSONS → IPL LIVE
+ let sportsCombined = [];
+ for(const u of SOURCES.SPORTS_JSON){
+  const d = await safeFetch(u);
+  if(d && Array.isArray(d.streams)){
+    sportsCombined = sportsCombined.concat(d.streams);
+  }
+ }
 
- // SONYLIV EVENTS
+ if(sportsCombined.length){
+  out.push(section("IPL LIVE"), convertSportsJson({streams: sportsCombined}));
+ }
+
+ // SONY
  const sony=await safeFetch(SOURCES.SONYLIV_JSON);
  if(sony) out.push(section("SonyLiv | Sports"),convertSony(sony));
 
@@ -219,19 +233,6 @@ async function run(){
  // ICC
  const icc=await safeFetch(SOURCES.ICC_TV_JSON);
  if(icc) out.push(section("ICC TV"),icc);
-
- // SONYLIV DIGITAL
- const digital=await safeFetch(SOURCES.SONGHAR_SONYLIV);
- if(digital){
-  const fixed=digital.split("\n").map(l=>{
-    if(l.startsWith("#EXTINF")){
-      return l.replace(/group-title="[^"]*"/,'group-title="CS OTT | SONY LIV"');
-    }
-    return l;
-  }).join("\n");
-
-  out.push(section("CS OTT | SONY LIV"),fixed);
- }
 
  out.push(PLAYLIST_FOOTER.trim());
 
