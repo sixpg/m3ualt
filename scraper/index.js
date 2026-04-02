@@ -40,7 +40,7 @@ function section(title) {
   return `\n# ---------------=== ${title} ===-------------------\n`;
 }
 
-// ================= JIO (RESTORED - REQUIRED) =================
+// ================= JIO =================
 function convertJioJson(json){
  const out=[];
  for(const id in json){
@@ -55,6 +55,16 @@ function convertJioJson(json){
   out.push(ch.url);
  }
  return out.join("\n");
+}
+
+// ================= SONYLIV =================
+function convertSony(json){
+ if(!json.matches) return "";
+ return json.matches.filter(m=>m.isLive).map(m=>{
+  const url=m.dai_url||m.pub_url;
+  if(!url) return null;
+  return `#EXTINF:-1 tvg-logo="${m.src}" group-title="SonyLiv | Sports",${m.match_name}\n${url}`;
+ }).filter(Boolean).join("\n");
 }
 
 // ================= SPORTS =================
@@ -98,7 +108,7 @@ async function run(){
  const out=[];
  out.push(PLAYLIST_HEADER.trim());
 
- // ✅ 1. IPL (TOP)
+ // 1️⃣ IPL (TOP)
  let sportsCombined = [];
  for(const u of SOURCES.SPORTS_JSON){
   const d = await safeFetch(u);
@@ -110,15 +120,15 @@ async function run(){
   out.push(section("IPL"), convertSportsJson({streams: sportsCombined}));
  }
 
- // ✅ 2. Jio Cinema
+ // 2️⃣ Jio Cinema
  const hotstar=await safeFetch(SOURCES.HOTSTAR_M3U);
  if(hotstar) out.push(section("CS OTT | Jio Cinema"),hotstar);
 
- // ✅ 3. ZEE5
+ // 3️⃣ ZEE5
  const zee5=await safeFetch(SOURCES.ZEE5_M3U);
  if(zee5) out.push(section("CS OTT | ZEE5"),zee5);
 
- // ✅ 4. NEW M3U (UNCHANGED)
+ // 4️⃣ NEW M3U (UNCHANGED)
  const newm3u = await safeFetch(SOURCES.NEW_M3U);
  if(newm3u){
   const categorized = newm3u.split("\n").map(line=>{
@@ -138,19 +148,19 @@ async function run(){
   out.push(section("CS OTT | Extra"), categorized);
  }
 
- // ✅ 5. JIOTV+ (WITH CATEGORIES + DRM)
+ // 5️⃣ JIOTV+
  const jio=await safeFetch(SOURCES.JIO_JSON);
  if(jio) out.push(section("JioTv+"),convertJioJson(jio));
 
- // ✅ 6. FANCODE
+ // 6️⃣ FANCODE
  const fan=await safeFetch(SOURCES.FANCODE_JSON);
  if(fan) out.push(section("FanCode | Sports"),fan);
 
- // ✅ 7. SONYLIV EVENTS
+ // 7️⃣ SONYLIV EVENTS
  const sony=await safeFetch(SOURCES.SONYLIV_JSON);
  if(sony) out.push(section("SonyLiv | Sports"),convertSony(sony));
 
- // ✅ 8. SONYLIV DIGITAL
+ // 8️⃣ SONYLIV DIGITAL
  const digital=await safeFetch(SOURCES.SONYLIV_M3U);
  if(digital){
   const fixed=digital.split("\n").map(l=>{
@@ -163,6 +173,7 @@ async function run(){
   out.push(section("CS OTT | SONY LIV"),fixed);
  }
 
+ // ICC (unchanged)
  const icc=await safeFetch(SOURCES.ICC_TV_JSON);
  if(icc) out.push(section("ICC TV"),icc);
 
