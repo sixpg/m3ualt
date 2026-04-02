@@ -128,17 +128,10 @@ async function run(){
  const zee5=await safeFetch(SOURCES.ZEE5_M3U);
  if(zee5) out.push(section("CS OTT | ZEE5"),zee5);
   
- // 5️⃣ JIOTV+
+// 5️⃣ JIOTV+
  const jio=await safeFetch(SOURCES.JIO_JSON);
  if(jio) out.push(section("JioTv+"),convertJioJson(jio));
-  
-  // 6️⃣ FANCODE
- const fan=await safeFetch(SOURCES.FANCODE_JSON);
- if(fan) out.push(section("FanCode | Sports"),fan);
-  
-  // 7️⃣ SONYLIV EVENTS
- const sony=await safeFetch(SOURCES.SONYLIV_JSON);
- if(sony) out.push(section("SonyLiv | Sports"),convertSony(sony));
+
   
  // 4️⃣ NEW M3U (UNCHANGED)
  const newm3u = await safeFetch(SOURCES.NEW_M3U);
@@ -159,6 +152,14 @@ async function run(){
 
   out.push(section("CS OTT | Extra"), categorized);
  }
+
+ // 6️⃣ FANCODE
+ const fan=await safeFetch(SOURCES.FANCODE_JSON);
+ if(fan) out.push(section("FanCode | Sports"),fan);
+
+ // 7️⃣ SONYLIV EVENTS
+ const sony=await safeFetch(SOURCES.SONYLIV_JSON);
+ if(sony) out.push(section("SonyLiv | Sports"),convertSony(sony));
 
  // 8️⃣ SONYLIV DIGITAL
  const digital=await safeFetch(SOURCES.SONYLIV_M3U);
