@@ -15498,16 +15498,7 @@ https://vt-ip.vodep39240327.workers.dev/6209.m3u8
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016634/1774600565261142_FC_Cup_26_QF_Manchester_City_vs_Liverpool_landscape_thumb.jpg" group-title="SonyLiv | Sports",Manchester City vs Liverpool - Quarter-Final - 4 Apr 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005444/FACup_Ma0404/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775346244~acl=/*~id=69618538409634432257969299544409~hmac=90b9135bd9ef3da4b20bc5730b31f73cb16b323a3ffb27e44dcaaa619ea45cb6
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016634/1774600565261142_FC_Cup_26_QF_Manchester_City_vs_Liverpool_landscape_thumb.jpg" group-title="SonyLiv | Sports",Manchester City vs Liverpool - Quarter-Final - 4 Apr 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2005444/FACup_Ma0404/HIN/std_lrh-800300010.m3u8?hdnea=exp=1775346244~acl=/*~id=69618538409634432257969299544409~hmac=90b9135bd9ef3da4b20bc5730b31f73cb16b323a3ffb27e44dcaaa619ea45cb6
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016634/1774600565261142_FC_Cup_26_QF_Manchester_City_vs_Liverpool_landscape_thumb.jpg" group-title="SonyLiv | Sports",Manchester City vs Liverpool - Quarter-Final - 4 Apr 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2005444/FACup_Ma0404/TAM/std_lrh-800300010.m3u8?hdnea=exp=1775346244~acl=/*~id=69618538409634432257969299544409~hmac=90b9135bd9ef3da4b20bc5730b31f73cb16b323a3ffb27e44dcaaa619ea45cb6
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016634/1774600565261142_FC_Cup_26_QF_Manchester_City_vs_Liverpool_landscape_thumb.jpg" group-title="SonyLiv | Sports",Manchester City vs Liverpool - Quarter-Final - 4 Apr 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2005444/FACup_Ma0404/TEL/std_lrh-800300010.m3u8?hdnea=exp=1775346244~acl=/*~id=69618538409634432257969299544409~hmac=90b9135bd9ef3da4b20bc5730b31f73cb16b323a3ffb27e44dcaaa619ea45cb6
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016634/1774600565261142_FC_Cup_26_QF_Manchester_City_vs_Liverpool_landscape_thumb.jpg" group-title="SonyLiv | Sports",Manchester City vs Liverpool - Quarter-Final - 4 Apr 2026 [KAN]
-https://sonydaimenew.akamaized.net/hls/live/2005444/FACup_Ma0404/KAN/std_lrh-800300010.m3u8?hdnea=exp=1775346244~acl=/*~id=69618538409634432257969299544409~hmac=90b9135bd9ef3da4b20bc5730b31f73cb16b323a3ffb27e44dcaaa619ea45cb6
+
 # =========================================
 # This m3u link is only for educational purposes
 # =========================================
